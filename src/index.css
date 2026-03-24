@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #8b5cf6;
+  --color-secondary: #06b6d4;
+  --color-bg-dark: #0f1115;
+  --color-bg-card: #1e2128;
+}
+
+@layer base {
+  body {
+    @apply bg-[var(--color-bg-dark)] text-gray-100 font-sans antialiased;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/5 backdrop-blur-md border border-white/10 shadow-xl;
+  }
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+  }
+}
