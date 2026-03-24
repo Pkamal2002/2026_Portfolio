@@ -16,7 +16,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center pt-20 relative">
+    <section id="home" className="min-h-screen flex items-center pl-10 pt-20 relative">
       <div className="container mx-auto px-6 relative z-10">
         <motion.div
           variants={containerVariants}
