@@ -8,8 +8,8 @@ const fallbackProjects = [
     title: "Resume Builder",
     description: "A full-stack resume builder with dynamic templates, user authentication, and PDF export functionality.",
     tech: ["MERN", "AWS", "Tailwind CSS", "JWT"],
-    github: "#",
-    live: "#",
+    github: "https://github.com/Pkamal2002",
+    live: "https://resume-builder-91rb.vercel.app/",
     image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&q=80&w=600"
   },
   {
