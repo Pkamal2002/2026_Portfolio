@@ -72,7 +72,7 @@ const ProjectCard = ({ project }) => {
         <p className="text-gray-400 text-sm mb-4 line-clamp-2">{project.description}</p>
 
         <div className="flex flex-wrap gap-2 mb-6">
-          {project.tech.map(t => (
+          {project.tech?.map(t => (
             <span key={t} className="px-3 py-1 bg-white/5 rounded-full text-xs font-medium border border-white/10 text-primary">
               {t}
             </span>
